@@ -1,0 +1,223 @@
+{
+  "models_root": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests",
+  "week1_root": "C:\\Users\\User\\Desktop\\WAAM\\TEAM_PROJECT\\week1",
+  "model_count": 6,
+  "models": [
+    {
+      "model": "01",
+      "files": {
+        "config_yaml": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests\\01\\config.yaml",
+        "target_stl": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests\\01\\target.stl",
+        "target_bytes": 66084
+      },
+      "mesh": {
+        "triangles": 1320,
+        "vertices": 648,
+        "watertight": true,
+        "body_count": 1,
+        "bounds_mm": [
+          [
+            -113.11920166015625,
+            -108.99140167236328,
+            0.0
+          ],
+          [
+            113.11920166015625,
+            108.99140167236328,
+            12.0
+          ]
+        ],
+        "height_mm": 12.0
+      },
+      "layers": {
+        "count": 6,
+        "nonempty_count": 6,
+        "minimum_area_mm2": 9736.703068399936,
+        "maximum_area_mm2": 9736.70519533,
+        "maximum_component_count": 1,
+        "maximum_hole_count": 7
+      },
+      "inspection_seconds": 0.10345970001071692
+    },
+    {
+      "model": "02",
+      "files": {
+        "config_yaml": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests\\02\\config.yaml",
+        "target_stl": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests\\02\\target.stl",
+        "target_bytes": 224884
+      },
+      "mesh": {
+        "triangles": 4496,
+        "vertices": 2250,
+        "watertight": true,
+        "body_count": 1,
+        "bounds_mm": [
+          [
+            -162.39529418945312,
+            -175.793701171875,
+            0.0
+          ],
+          [
+            188.989501953125,
+            148.99740600585938,
+            16.0
+          ]
+        ],
+        "height_mm": 16.0
+      },
+      "layers": {
+        "count": 8,
+        "nonempty_count": 8,
+        "minimum_area_mm2": 15875.466045375018,
+        "maximum_area_mm2": 15875.477219169805,
+        "maximum_component_count": 1,
+        "maximum_hole_count": 0
+      },
+      "inspection_seconds": 0.38667669997084886
+    },
+    {
+      "model": "03",
+      "files": {
+        "config_yaml": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests\\03\\config.yaml",
+        "target_stl": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests\\03\\target.stl",
+        "target_bytes": 46484
+      },
+      "mesh": {
+        "triangles": 928,
+        "vertices": 450,
+        "watertight": true,
+        "body_count": 1,
+        "bounds_mm": [
+          [
+            -179.0,
+            -109.0,
+            0.0
+          ],
+          [
+            179.0,
+            194.0,
+            12.0
+          ]
+        ],
+        "height_mm": 12.0
+      },
+      "layers": {
+        "count": 6,
+        "nonempty_count": 6,
+        "minimum_area_mm2": 16439.57906203998,
+        "maximum_area_mm2": 16439.585496289983,
+        "maximum_component_count": 1,
+        "maximum_hole_count": 9
+      },
+      "inspection_seconds": 0.08008370001334697
+    },
+    {
+      "model": "04",
+      "files": {
+        "config_yaml": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests\\04\\config.yaml",
+        "target_stl": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests\\04\\target.stl",
+        "target_bytes": 120484
+      },
+      "mesh": {
+        "triangles": 2408,
+        "vertices": 1204,
+        "watertight": true,
+        "body_count": 1,
+        "bounds_mm": [
+          [
+            -228.97946166992188,
+            -228.97946166992188,
+            0.0
+          ],
+          [
+            228.97946166992188,
+            228.97946166992188,
+            100.0
+          ]
+        ],
+        "height_mm": 100.0
+      },
+      "layers": {
+        "count": 50,
+        "nonempty_count": 50,
+        "minimum_area_mm2": 41571.509777755,
+        "maximum_area_mm2": 104151.72778422503,
+        "maximum_component_count": 4,
+        "maximum_hole_count": 4
+      },
+      "inspection_seconds": 0.8194434000179172
+    },
+    {
+      "model": "05",
+      "files": {
+        "config_yaml": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests\\05\\config.yaml",
+        "target_stl": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests\\05\\target.stl",
+        "target_bytes": 5414484
+      },
+      "mesh": {
+        "triangles": 108288,
+        "vertices": 54144,
+        "watertight": true,
+        "body_count": 1,
+        "bounds_mm": [
+          [
+            -382.84881591796875,
+            -400.0,
+            0.0
+          ],
+          [
+            382.84881591796875,
+            400.0,
+            700.0
+          ]
+        ],
+        "height_mm": 700.0
+      },
+      "layers": {
+        "count": 350,
+        "nonempty_count": 350,
+        "minimum_area_mm2": 35895.00149940493,
+        "maximum_area_mm2": 55005.596898225136,
+        "maximum_component_count": 1,
+        "maximum_hole_count": 1
+      },
+      "inspection_seconds": 7.317602900089696
+    },
+    {
+      "model": "06",
+      "files": {
+        "config_yaml": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests\\06\\config.yaml",
+        "target_stl": "C:\\Users\\User\\Desktop\\WAAM_Validator-main\\tests\\06\\target.stl",
+        "target_bytes": 1084
+      },
+      "mesh": {
+        "triangles": 20,
+        "vertices": 12,
+        "watertight": true,
+        "body_count": 1,
+        "bounds_mm": [
+          [
+            -63.0,
+            -95.0,
+            0.0
+          ],
+          [
+            63.0,
+            95.0,
+            102.0
+          ]
+        ],
+        "height_mm": 102.0
+      },
+      "layers": {
+        "count": 51,
+        "nonempty_count": 51,
+        "minimum_area_mm2": 3420.0,
+        "maximum_area_mm2": 23940.0,
+        "maximum_component_count": 1,
+        "maximum_hole_count": 0
+      },
+      "inspection_seconds": 0.05046459997538477
+    }
+  ]
+}
