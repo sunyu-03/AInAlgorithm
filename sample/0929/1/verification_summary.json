@@ -1,0 +1,29 @@
+{
+  "model": "01",
+  "algorithm": "PPO task assignment with conservative serial scheduling",
+  "training": {
+    "timesteps": 30000,
+    "seed": 42,
+    "observation_size": 13,
+    "action_space": "Discrete(3)",
+    "greedy_baseline_makespan_s": 1654.8365054044032,
+    "ppo_improvement_s": 11.006388181312559
+  },
+  "input_check": {
+    "status": "PASS",
+    "robots": 3,
+    "trajectory_rows": 640
+  },
+  "validation": {
+    "status": "PASS",
+    "makespan_s": 1643.830117223,
+    "coverage": 0.9999996052859993,
+    "overfill_ratio": 4.626822487338171e-10,
+    "iou": 0.9999994260464572,
+    "failed_layer_count": 0,
+    "collision_event_count": 0,
+    "reach_passed": true,
+    "failure_reasons": []
+  },
+  "note": "Validation calculations completed in memory. The restricted Codex session prevented the Validator's atomic report bundle from being written, but did not affect the validation result."
+}

@@ -1,0 +1,53 @@
+{
+  "algorithm": "PPO",
+  "seed": 42,
+  "timesteps": 30000,
+  "observation_size": 13,
+  "action_space": "Discrete(3): robot 1, 2, 3",
+  "task_count": 30,
+  "layer_count": 6,
+  "greedy_baseline_makespan_s": 1654.8365054044032,
+  "ppo_estimated_makespan_s": 1643.8301172230906,
+  "improvement_s": 11.006388181312559,
+  "assignment_by_task": [
+    2,
+    1,
+    1,
+    3,
+    3,
+    3,
+    2,
+    2,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "tasks_per_robot": {
+    "1": 10,
+    "2": 6,
+    "3": 14
+  },
+  "model_file": "C:\\Users\\User\\Desktop\\AInAlgorithm\\sample\\0929\\code_ver.1\\ppo_model_01.zip",
+  "policy_terminal_info": {
+    "makespan_s": 1643.8301172230906
+  }
+}

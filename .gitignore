@@ -7,3 +7,9 @@ venv/
 .DS_Store
 Thumbs.db
 
+# WAAM Validator runtime/temporary outputs (keep curated validation_* results)
+**/.waam_state/
+sample/**/my_job/output/
+sample/**/validation-check-only/
+sample/**/ppo-validation-check/
+sample/**/validation/
