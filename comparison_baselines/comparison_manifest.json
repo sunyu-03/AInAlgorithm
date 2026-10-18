@@ -1,0 +1,175 @@
+{
+  "pre_1014": [
+    {
+      "folder": "pre_1014/model01",
+      "makespan_s": 854.3343396007135,
+      "status": "PASS",
+      "trajectory_sha256": "adc15bfde7cae7e2df6ff2b6687a7ac8f44fa84bb522dc552a28d5080e634c28",
+      "source_job": "waam_generalization/integration/runs/final_matrix_20261009/01/job",
+      "source_summary": "waam_generalization/integration/evidence/20261009/01/validation/summary.json",
+      "original_summary_sha256": "a28aac47a55161262506cdd4f0ef9291c8faed3a2db02850e0a98386b21138e5",
+      "inputs_sha256": {
+        "target.stl": "c82bfb68b3ee385230db769eab62236205de560ed85abe3ddf3a09d910e4e146",
+        "config.yaml": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+      },
+      "model": "01",
+      "final_makespan_s": 696.544503142243,
+      "final_csv": "../final_algorithm/model01/trajectory.csv",
+      "final_sha256": "e16501e2845135183d3164c0c6e50c69c2c9e174d04e39abc2ba260235c55acd",
+      "reduction_percent": 18.46933093339267,
+      "shape_budget_makespan_s": 854.3343396007135
+    },
+    {
+      "folder": "pre_1014/model02",
+      "makespan_s": 2338.045782464,
+      "status": "PASS",
+      "trajectory_sha256": "31b1ca0b965e9f8d1f2d73d1dd95dc3e42f403a0ad99f85e67293bc120a1c04a",
+      "source_job": "sample/0929/code_ver.1/model02_ppo_comparison_v2/ppo/my_job",
+      "source_summary": "1014/legacy_model02_validation/summary.json",
+      "original_summary_sha256": "4c5c392ce23a23ad0c9235dafda1889c87845747e99470b445c61a763f451d70",
+      "inputs_sha256": {
+        "target.stl": "1262d0f4ca60a7b0920afc80e9ca77a88f45c356d96b120e4df05787e3582962",
+        "config.yaml": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+      },
+      "model": "02",
+      "final_makespan_s": 1629.199018917012,
+      "final_csv": "../final_algorithm/model02/trajectory.csv",
+      "final_sha256": "b6eac97c49638e1488ef2b4180ec9e7fb611d8f63709c10a92599cbfcbf9dd8f",
+      "reduction_percent": 30.31791630700894,
+      "shape_budget_makespan_s": 2338.045782464
+    },
+    {
+      "folder": "pre_1014/model03",
+      "makespan_s": 1411.9384718897938,
+      "status": "PASS",
+      "trajectory_sha256": "36033db5363e5037ad302fc9105b3d8f005ebb0b796f59d9496428a33bb057a0",
+      "source_job": "waam_generalization/integration/evidence/segments_20261009_001/03/job",
+      "source_summary": "waam_generalization/integration/evidence/segments_20261009_001/03/validation/summary.json",
+      "original_summary_sha256": "e693168edff54b6ea7d3417213e5fb14b8703f314c63b3a84d11f7ddabb3262f",
+      "inputs_sha256": {
+        "target.stl": "f5d5dcd1b9126f4a9b104f7913487ab47dc5304b9337a19d0bac284c02326769",
+        "config.yaml": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+      },
+      "model": "03",
+      "final_makespan_s": 1174.6072147766963,
+      "final_csv": "../final_algorithm/model03/trajectory.csv",
+      "final_sha256": "0cfeeeb0c942376025d3bc0ac72aa048c46aa34d8f98eddd1d5149ce4f774d83",
+      "reduction_percent": 16.808895135171444,
+      "shape_budget_makespan_s": 1411.9175663500116
+    },
+    {
+      "folder": "pre_1014/model04",
+      "makespan_s": 48267.64114730745,
+      "status": "PASS",
+      "trajectory_sha256": "d8b5264c06fb6fe6e7fda48eaac2f1d8a2c8720f81d9423f329418f74267971e",
+      "source_job": "waam_generalization/integration/runs/final_matrix_20261009/04/job",
+      "source_summary": "waam_generalization/integration/evidence/20261009/04/validation/summary.json",
+      "original_summary_sha256": "80a417679ad203b52a0d63c14dd8a7ed062767ac85c6391b6fe40ffe115676f8",
+      "inputs_sha256": {
+        "target.stl": "dc8ec2acec88920ae367ea4dc43bca71c65e0a2e7f2b00dc6efd2eca4742e56c",
+        "config.yaml": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+      },
+      "model": "04",
+      "final_makespan_s": 26127.124099935245,
+      "final_csv": "../final_algorithm/model04/trajectory.csv",
+      "final_sha256": "b83294c824b2b5265a117820ad6bb745d413189842ba20eccefee82c1cb409e3",
+      "reduction_percent": 45.87031087722273,
+      "shape_budget_makespan_s": 40387.06401005176
+    },
+    {
+      "folder": "pre_1014/model05",
+      "makespan_s": 158982.99304423333,
+      "status": "PASS",
+      "trajectory_sha256": "068a010cb24c3c79adb7f771159aca62fac9e5c81ad7c62588d4727a1fd046a3",
+      "source_job": "waam_generalization/integration/evidence/segments_20261009_001/05/job",
+      "source_summary": "waam_generalization/integration/evidence/segments_20261009_001/05/validation/summary.json",
+      "original_summary_sha256": "ac2e0e0e7ad9feb919a83f4287a1a7448e083084fa4e785dfdd0696157468b85",
+      "inputs_sha256": {
+        "target.stl": "c7ef0f6330b2da30cc1671f5e91471074fb1e6ca7e40027193380d6ef7ccad41",
+        "config.yaml": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+      },
+      "model": "05",
+      "final_makespan_s": 100633.80540960822,
+      "final_csv": "../final_algorithm/model05/trajectory.csv",
+      "final_sha256": "28a2e12583c7911977a8576368a9813d5434e805ab6012a496f1fdc82a12113e",
+      "reduction_percent": 36.70152795424527,
+      "shape_budget_makespan_s": 108519.16753824956
+    },
+    {
+      "folder": "pre_1014/model06",
+      "makespan_s": 5563.401691725323,
+      "status": "PASS",
+      "trajectory_sha256": "8f24cb9fe33bcecf98282abb292a2de072619a3b0b305ad1c3247f6ffb4f30a1",
+      "source_job": "waam_generalization/integration/runs/final_matrix_20261009/06/job",
+      "source_summary": "waam_generalization/integration/evidence/20261009/06/validation/summary.json",
+      "original_summary_sha256": "dbaaf96a45dd7fe364f4b03b31717979983a1f52550c1c455630a0c82f9a3b3f",
+      "inputs_sha256": {
+        "target.stl": "0b56e06778553992d12fb47031fff6dc12735d79bdcb49c39a7bb5c96eef12f1",
+        "config.yaml": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+      },
+      "model": "06",
+      "final_makespan_s": 3996.8929403231928,
+      "final_csv": "../final_algorithm/model06/trajectory.csv",
+      "final_sha256": "0f99ab072436e6640d19c6ca51865416ebc2a5972c7d2ca62f8bebe9d8660509",
+      "reduction_percent": 28.157390715325537,
+      "shape_budget_makespan_s": 5031.049718205066
+    }
+  ],
+  "ppo_v1_sample8": [
+    {
+      "folder": "ppo_v1_sample8/ppo",
+      "makespan_s": 172.34694043458887,
+      "status": "PASS",
+      "trajectory_sha256": "75b5d79e8925366354aecbed5f6b03613cec371aa5a19de82e53b5fa9739f91b",
+      "source_job": "waam_generalization/integration/runs/ppo_sample8_20261009_001/ppo/job",
+      "source_summary": "waam_generalization/integration/runs/ppo_sample8_20261009_001/ppo/validation/summary.json",
+      "original_summary_sha256": "63a85b24ab3bdc544ff1d8145f10152c091f73c6d71c2462edf6f1650df5456a",
+      "inputs_sha256": {
+        "target.stl": "fc5bb5ca0ef7ecdeb8499b69f077c66d7564575e036aa903e53f62c7a66eb451",
+        "config.yaml": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e"
+      }
+    },
+    {
+      "folder": "ppo_v1_sample8/greedy",
+      "makespan_s": 172.34694043458887,
+      "status": "PASS",
+      "trajectory_sha256": "75b5d79e8925366354aecbed5f6b03613cec371aa5a19de82e53b5fa9739f91b",
+      "source_job": "waam_generalization/integration/runs/ppo_sample8_20261009_001/greedy/job",
+      "source_summary": "waam_generalization/integration/runs/ppo_sample8_20261009_001/greedy/validation/summary.json",
+      "original_summary_sha256": "9676766edd4c3e4a24e4a5d28b727ceebeaee1e37281711bfb1934c8f1aa0b77",
+      "inputs_sha256": {
+        "target.stl": "fc5bb5ca0ef7ecdeb8499b69f077c66d7564575e036aa903e53f62c7a66eb451",
+        "config.yaml": "93293be7fa017df46ffd7913b4d48a54ebdc8a8b1c1eb072a2a001f4ee43165e"
+      }
+    }
+  ],
+  "ppo_v2_model06": [
+    {
+      "folder": "ppo_v2_model06/ppo",
+      "makespan_s": 6198.8233492910795,
+      "status": "PASS",
+      "trajectory_sha256": "57e229bedf0a165ea579f741c2dbe09e69a2c4459cf82ab7212e44a93297b184",
+      "source_job": "waam_generalization/integration/runs/route_public06_ppo_20261009_001/model06/ppo/job",
+      "source_summary": "waam_generalization/integration/evidence/routes_20261009_001/public06_ppo/model06/ppo/validation/summary.json",
+      "original_summary_sha256": "77c5b1cd91e485caea53b65874ca76c8d0bfd3b7cbfbd02fc0d70fcd07757d05",
+      "inputs_sha256": {
+        "target.stl": "0b56e06778553992d12fb47031fff6dc12735d79bdcb49c39a7bb5c96eef12f1",
+        "config.yaml": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+      }
+    },
+    {
+      "folder": "ppo_v2_model06/greedy",
+      "makespan_s": 5649.968887642633,
+      "status": "PASS",
+      "trajectory_sha256": "0f9c63599d1252cd685d5049678a4cd34587cef544ff9ab44bbe1989fb7fed50",
+      "source_job": "waam_generalization/integration/runs/route_public06_greedy_20261009_001/job",
+      "source_summary": "waam_generalization/integration/evidence/routes_20261009_001/public06_greedy/validation/summary.json",
+      "original_summary_sha256": "1914f345719c2bceebb849acdb90820882e2b71e961cab7448802c9e904c21f1",
+      "inputs_sha256": {
+        "target.stl": "0b56e06778553992d12fb47031fff6dc12735d79bdcb49c39a7bb5c96eef12f1",
+        "config.yaml": "0c6111e4657f0cc4fc3ba0722ab18ccb78a533e7c233e08b185673c8d846c7e7"
+      }
+    }
+  ],
+  "note": "Archived comparison outputs, not newly rerun. Validation summaries retain metrics; local root path normalized. Inputs are identified by SHA256; use matching original STL/config."
+}

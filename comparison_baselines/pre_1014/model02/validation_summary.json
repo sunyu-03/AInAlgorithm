@@ -1,0 +1,133 @@
+{
+  "schema_version": "4.0",
+  "validator_version": "1.0.1",
+  "status": "PASS",
+  "input": {
+    "directory": "AInAlgorithm\\sample\\0929\\code_ver.1\\model02_ppo_comparison_v2\\ppo\\my_job",
+    "trajectory_rows": 1620,
+    "target_watertight": true
+  },
+  "schedule": {
+    "makespan_s": 2338.045782464,
+    "robot_completion_s": {
+      "1": 2338.045782464,
+      "2": 2338.045782464,
+      "3": 2338.045782464
+    },
+    "workload_imbalance_s": 0.0,
+    "normalized_imbalance": 0.0
+  },
+  "reach": {
+    "distance_basis": "XY",
+    "passed": true,
+    "robots": [
+      {
+        "robot_id": 1,
+        "passed": true,
+        "xy_reach_radius_mm": 1500.0,
+        "maximum_xy_distance_mm": 1495.1056588823433,
+        "minimum_xy_margin_mm": 4.894341117656722,
+        "xy_utilization_ratio": 0.9967371059215622,
+        "xy_violation_point_count": 0,
+        "first_xy_violation_s": null,
+        "last_xy_violation_s": null
+      },
+      {
+        "robot_id": 2,
+        "passed": true,
+        "xy_reach_radius_mm": 1500.0,
+        "maximum_xy_distance_mm": 400.00004144903704,
+        "minimum_xy_margin_mm": 1099.999958550963,
+        "xy_utilization_ratio": 0.266666694299358,
+        "xy_violation_point_count": 0,
+        "first_xy_violation_s": null,
+        "last_xy_violation_s": null
+      },
+      {
+        "robot_id": 3,
+        "passed": true,
+        "xy_reach_radius_mm": 1500.0,
+        "maximum_xy_distance_mm": 1499.4413671614182,
+        "minimum_xy_margin_mm": 0.5586328385818433,
+        "xy_utilization_ratio": 0.9996275781076122,
+        "xy_violation_point_count": 0,
+        "first_xy_violation_s": null,
+        "last_xy_violation_s": null
+      }
+    ]
+  },
+  "collision": {
+    "passed": true,
+    "collision_event_count": 0,
+    "arm_envelope": {
+      "enabled": true,
+      "passed": true,
+      "event_count": 0,
+      "minimum_safety_margin_mm": 573.9652771794204,
+      "centerline_distance_at_worst_mm": 823.9652771794204,
+      "required_distance_at_worst_mm": 250.0,
+      "capsule_surface_clearance_at_worst_mm": 623.9652771794204,
+      "pair": [
+        1,
+        3
+      ],
+      "time_s": 2135.735387623,
+      "closest_points_xy_mm": [
+        [
+          87.26850128173828,
+          -152.88340759277344
+        ],
+        [
+          500.0,
+          -866.025390625
+        ]
+      ],
+      "tcp_positions_xy_mm": [
+        [
+          87.26850128173828,
+          -152.88340759277344
+        ],
+        [
+          500.0,
+          866.025390625
+        ],
+        [
+          500.0,
+          -866.025390625
+        ]
+      ]
+    },
+    "tcp_radius": {
+      "enabled": true,
+      "passed": true,
+      "event_count": 0,
+      "minimum_distance_mm": 823.9652771794204,
+      "required_distance_at_minimum_mm": 200.0,
+      "pair": [
+        1,
+        3
+      ],
+      "time_s": 2135.735387623
+    }
+  },
+  "shape": {
+    "passed": true,
+    "target_volume_mm3": 254007.5490016898,
+    "deposited_volume_mm3": 253928.39373773997,
+    "intersection_volume_mm3": 251832.0330509894,
+    "underfill_volume_mm3": 2175.514723499993,
+    "overfill_volume_mm3": 2096.3468143600007,
+    "coverage": 0.9914352311210801,
+    "underfill_ratio": 0.008564764047565848,
+    "overfill_ratio": 0.008253088629055095,
+    "iou": 0.9833197523511147,
+    "failed_layer_count": 0,
+    "evaluated_layer_count": 8,
+    "failed_layer_ratio": 0.0,
+    "target_mesh_volume_mm3": 254007.55761969942,
+    "target_volume_discrepancy_ratio": 3.392816224325484e-08
+  },
+  "failure_reasons": [],
+  "issues": [],
+  "output_directory": "AInAlgorithm\\1014\\legacy_model02_validation"
+}

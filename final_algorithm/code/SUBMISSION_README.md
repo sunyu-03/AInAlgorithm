@@ -36,3 +36,7 @@ $waamPython = 'C:\Users\User\Desktop\WAAM_Validator-main\.venv\Scripts\python.ex
 ## 결과 해석
 
 공개 6개 최종 CSV는 보존 공식 검증에서 모두 PASS입니다. 전역 최적성과 비공개 일반화는 증명하지 않았습니다. 최종 휴리스틱이 학습 모델이 아니므로 추가 checkpoint가 필요하지 않습니다. `.gitattributes`는 Git의 줄바꿈 변환으로 원본 코드와 CSV 바이트가 바뀌지 않도록 설정합니다.
+
+## 비교 자료 추가
+
+2026-10-19 요청에 따라 보고서의 비교용 CSV와 보존 공식 판정 기록을 저장소 루트의 [comparison_baselines](../../comparison_baselines/README.md)에 별도로 공개했습니다. 위 최소 업로드 안내는 최초 업로드 시점의 범위이며, 최종 코드와 제출 CSV는 변경하지 않았습니다. 보고서는 업로드하지 않습니다.

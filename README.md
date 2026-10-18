@@ -10,3 +10,7 @@
 - [Model04](final_algorithm/model04/trajectory.csv) · [Model05](final_algorithm/model05/trajectory.csv) · [Model06](final_algorithm/model06/trajectory.csv)
 
 최종 방법은 PPO를 호출하지 않는 휴리스틱입니다. 기존 sample 폴더는 과거 PPO 자료이며, 보고서는 별도로 제출합니다.
+
+## 보고서 비교 기준
+
+[비교용 CSV와 공식 판정 기록](comparison_baselines/README.md): 개선 전 6개 모델 기록 및 PPO 대 Greedy 비교. 최종 제출 CSV와 분리하여 보관합니다.
