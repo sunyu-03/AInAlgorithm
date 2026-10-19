@@ -9,7 +9,7 @@
 - [Model01](final_algorithm/model01/trajectory.csv) · [Model02](final_algorithm/model02/trajectory.csv) · [Model03](final_algorithm/model03/trajectory.csv)
 - [Model04](final_algorithm/model04/trajectory.csv) · [Model05](final_algorithm/model05/trajectory.csv) · [Model06](final_algorithm/model06/trajectory.csv)
 
-최종 방법은 PPO를 호출하지 않는 휴리스틱입니다. 기존 sample 폴더는 과거 PPO 자료이며, 보고서는 별도로 제출합니다.
+최종 방법은 PPO를 호출하지 않는 휴리스틱입니다. 기존 sample 폴더는 과거 PPO 자료이며, 최종 보고서는 아래 링크에서 확인할 수 있습니다.
 
 ## 보고서 비교 기준
 
@@ -17,4 +17,10 @@
 
 ## 2026 10 19 최종 교체
 
-고정 경계 LNS를 반영했습니다. 6개 전체 공식 PASS이며 10/15 고정본보다 5개 모델이 개선됐습니다. Model05는 100633.805410초에서 96424.118129초로 4209.687280초(4.183%) 줄었습니다. Model06은 기존 결과를 유지했습니다. [상세 결과와 실행 방법](final_algorithm/README.md). 보고서는 저장소에 업로드하지 않습니다.
+고정 경계 LNS를 반영했습니다. 6개 전체 공식 PASS이며 10/15 고정본보다 5개 모델이 개선됐습니다. Model05는 100633.805410초에서 96424.118129초로 4209.687280초(4.183%) 줄었습니다. Model06은 기존 결과를 유지했습니다. [상세 결과와 실행 방법](final_algorithm/README.md). 2026년 10월 20일 요청에 따라 최종 보고서도 공개했습니다.
+
+## 최종 보고서
+
+[INE4107 중간보고서 최종본 다운로드](reports/INE4107_midterm_report_final.docx)
+
+김선유 · 2022082779. 상세 흐름도 A·B·C, 원본 양식의 6개 모델 결과표와 공식 Validator 재검증 결과를 반영한 11쪽 보고서입니다. 표의 계산 시간은 제공된 Validator 검증 실행 시간이며 최적화 탐색 시간과 구분합니다.

@@ -33,7 +33,7 @@ Model05의 형상 경로 개선 후 값은 108519.167538초입니다. 이 값에
 
 구현: [묶음 재배정](../final_algorithm/code/bundle_reassign.py), [단일 층 및 두 층 선택](../final_algorithm/code/two_layer_lookahead.py), [2·4개 실행](../final_algorithm/code/run_bundle_stay.py), [3·6개 비교](../final_algorithm/code/run_last_bundle36.py).
 
-비교 폴더와 원본 기록의 대응, 정확한 수치, 해시는 comparison_manifest.json에 있습니다. 보고서 자체는 업로드하지 않습니다.
+비교 폴더와 원본 기록의 대응, 정확한 수치, 해시는 comparison_manifest.json에 있습니다. 최종 보고서는 [reports](../reports/INE4107_midterm_report_final.docx)에 있습니다.
 
 ## 10월 19일 LNS 추가 개선의 비교 기준
 

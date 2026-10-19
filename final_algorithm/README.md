@@ -26,7 +26,7 @@ Model 01/02의 실제 LNS 시작값은 직전 개선이 반영된 694.982918/162
 - ../comparison_baselines/frozen_20261015/: 이번 추가 개선의 비교 기준 CSV
 - ../comparison_baselines/pre_lns_20261019/: 실제 후처리 시작 CSV
 
-보고서, 개인 정보, STL/config, 실험 로그와 checkpoint는 이번 교체에 추가하지 않습니다. 모델별 CSV를 해당 공개 모델의 원본 target.stl/config.yaml과 함께 공식 Validator에 입력합니다.
+STL/config, 실험 로그와 checkpoint는 이번 교체에 추가하지 않았습니다. 최종 보고서는 [reports](../reports/INE4107_midterm_report_final.docx)에 추가했습니다. 모델별 CSV를 해당 공개 모델의 원본 target.stl/config.yaml과 함께 공식 Validator에 입력합니다.
 
 ## 현재 검증된 PC에서 실행
 
