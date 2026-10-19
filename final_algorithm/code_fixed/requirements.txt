@@ -1,0 +1,17 @@
+numpy==2.4.6
+shapely==2.1.2
+trimesh==5.0.0
+PyYAML==6.0.3
+polars==1.44.1
+pydantic==2.13.4
+scikit-image==0.26.0
+scipy==1.18.1
+lazy-loader==0.6
+networkx==3.7
+pillow==12.3.0
+imageio==2.38.0
+tifffile==2026.9.20
+packaging==26.3
+gymnasium==1.4.0
+cloudpickle==3.1.2
+farama-notifications==0.0.6
