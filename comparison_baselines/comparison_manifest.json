@@ -14,7 +14,7 @@
       },
       "model": "01",
       "final_makespan_s": 696.544503142243,
-      "final_csv": "../final_algorithm/model01/trajectory.csv",
+      "final_csv": "frozen_20261015/model01/trajectory.csv",
       "final_sha256": "e16501e2845135183d3164c0c6e50c69c2c9e174d04e39abc2ba260235c55acd",
       "reduction_percent": 18.46933093339267,
       "shape_budget_makespan_s": 854.3343396007135
@@ -33,7 +33,7 @@
       },
       "model": "02",
       "final_makespan_s": 1629.199018917012,
-      "final_csv": "../final_algorithm/model02/trajectory.csv",
+      "final_csv": "frozen_20261015/model02/trajectory.csv",
       "final_sha256": "b6eac97c49638e1488ef2b4180ec9e7fb611d8f63709c10a92599cbfcbf9dd8f",
       "reduction_percent": 30.31791630700894,
       "shape_budget_makespan_s": 2338.045782464
@@ -52,7 +52,7 @@
       },
       "model": "03",
       "final_makespan_s": 1174.6072147766963,
-      "final_csv": "../final_algorithm/model03/trajectory.csv",
+      "final_csv": "frozen_20261015/model03/trajectory.csv",
       "final_sha256": "0cfeeeb0c942376025d3bc0ac72aa048c46aa34d8f98eddd1d5149ce4f774d83",
       "reduction_percent": 16.808895135171444,
       "shape_budget_makespan_s": 1411.9175663500116
@@ -71,7 +71,7 @@
       },
       "model": "04",
       "final_makespan_s": 26127.124099935245,
-      "final_csv": "../final_algorithm/model04/trajectory.csv",
+      "final_csv": "frozen_20261015/model04/trajectory.csv",
       "final_sha256": "b83294c824b2b5265a117820ad6bb745d413189842ba20eccefee82c1cb409e3",
       "reduction_percent": 45.87031087722273,
       "shape_budget_makespan_s": 40387.06401005176
@@ -90,7 +90,7 @@
       },
       "model": "05",
       "final_makespan_s": 100633.80540960822,
-      "final_csv": "../final_algorithm/model05/trajectory.csv",
+      "final_csv": "frozen_20261015/model05/trajectory.csv",
       "final_sha256": "28a2e12583c7911977a8576368a9813d5434e805ab6012a496f1fdc82a12113e",
       "reduction_percent": 36.70152795424527,
       "shape_budget_makespan_s": 108519.16753824956
@@ -109,7 +109,7 @@
       },
       "model": "06",
       "final_makespan_s": 3996.8929403231928,
-      "final_csv": "../final_algorithm/model06/trajectory.csv",
+      "final_csv": "frozen_20261015/model06/trajectory.csv",
       "final_sha256": "0f99ab072436e6640d19c6ca51865416ebc2a5972c7d2ca62f8bebe9d8660509",
       "reduction_percent": 28.157390715325537,
       "shape_budget_makespan_s": 5031.049718205066
@@ -171,5 +171,6 @@
       }
     }
   ],
-  "note": "Archived comparison outputs, not newly rerun. Validation summaries retain metrics; local root path normalized. Inputs are identified by SHA256; use matching original STL/config."
+  "note": "Archived comparison outputs, not newly rerun. Validation summaries retain metrics; local root path normalized. Inputs are identified by SHA256; use matching original STL/config.",
+  "comparison_scope": "Historical pre_1014 vs frozen_20261015; current LNS final is in lns_comparison.json"
 }
